@@ -1,0 +1,39 @@
+img {
+    width: 100px;
+  }
+.Item {
+    background-color: rgba(255, 238, 221, 0.509);
+    border: darkgrey 1px solid;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+.name{
+    margin-top: 50%;
+    font-size: larger;
+}
+.price {
+    font-weight: 500;
+    font-size: larger;
+}
+.quantity{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.add {
+    border-radius: 70%;
+    background-color: green;
+    border: 2px dotted green;
+    color: aliceblue;
+    height: 20%;
+}
+
+.minus{
+    border-radius: 70%;
+    background-color: red;
+    border: 2px dotted red;
+    color: aliceblue;
+    height: 20%;
+}
